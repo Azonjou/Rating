@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.User {
+  left: 50%;
+  top: 260px;
+  padding: 20px 30px auto;
+}
+
+.Pass {
+  left: 50%;
+  top: 280px;
+}
+
+.Autor {
+  left: 50%;
+  width: 27.2%;
+  top: 300px;
+}

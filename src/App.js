@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="auto">
+        <TextField className='User' id="outlined-basic" label="Пользователь" variant="outlined" /><br></br>
+        <TextField className='Pass' id="outlined-pas" type="password" label="Пароль" variant="outlined" /><br></br>
+        <Button className='Autor' variant="contained">Войти</Button>
     </div>
   );
 }
